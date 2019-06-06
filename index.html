@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <script src=js/jquery-3.4.1.min.js></script>
+    <script src=js/smooth-scroll.polyfills.min.js></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/main.js"></script>
+    <title>Trip Log</title>
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href= "css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <nav>
+      <a href="#" class="hamburger"> &#8801;</a>
+      <ul>
+        <a href="#" class="close">&times;</a>
+        <li><a data-scroll href="#recent">Recent</a></li>
+        <li><a data-scroll href="#about">About</a></li>
+        <li><a data-scroll href="#map">Map</a></li>
+        <li><a data-scroll href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <h1>Trip Log</h1>
+    </header>
+
+    <section id="recent">
+      <h2>Recent</h2>
+      <div class="wrapper">
+      <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class=gallery>
+      <img class="cliffView" src="images/cliffView.jpg" alt="view of the cliff">
+      <img class="jordanClimbing" src="images/jordanClimbing.jpg" alt="Jordan climbing">
+      <img class="ashClimbing" src="images/ashClimbing.jpg" alt="Ashley climbing">
+      <img class="kateyClimbing" src="images/kateyClimbing.jpg" alt="Katey Climbing">
+      </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <div class="wrapper">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </section>
+    <div class="popup-gallery">
+    	<a href="images/arrowhead.jpg" title="Arrowhead">
+    		<img src="images/arrowhead.jpg" data-pin-nopin="true">
+    	</a>
+    	<a href="images/blackButte.jpeg" title="Nick Cage">
+    		<img src="images/blackButte.jpeg"  data-pin-nopin="true">
+    	</a>
+    	<a href="images/craterLake.jpg" title="Nick Cage">
+    		<img src="images/craterLake.jpg" data-pin-nopin="true">
+    	</a>
+    	
+    </div>
+<!-- <div class="wrapper">
+  <div class="flexslider">
+
+  <ul class="slides">
+    <li>
+      <img class="kateyClimbing" src="images/kateyClimbing.jpg" alt="Katey Climbing">
+    </li>
+    <li>
+      <img class="ashClimbing" src="images/ashClimbing.jpg" alt="Ashley climbing">
+    </li>
+    <li>
+      <img class="cliffView" src="images/cliffView.jpg" alt="view of the cliff">
+    </li>
+  </ul>
+</div>
+</div> -->
+
+    <section id="map">
+      <h2>Map</h2>
+      <div class="wrapper">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23438300.3300285!2d-94.1715529555803!3d45.63429600015058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1556971618570!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </section>
+<h2>Leave a comment</h2>
+    <form method="POST" action="https://docs.google.com/forms/d/e/1FAIpQLSfUrkJ5uCAEfMPWR6ULR0O-T0PgEP5hnZ0ilvQEW5HCTrX9zw/formResponse" target="_blank">
+      <div class=comment>
+      <label for="firstname">First Name </label>
+      <input type="text" name="entry.606762069" id="firstname"><br>
+      <label for="lastname">Last Name </label>
+      <input type="text" name="entry.1307210269" id="lastname"><br>
+      <label for="emailaddress">Email address</label>
+      <input type="text" name="entry.884737946" id="emailaddress"><br>
+      <label for="comment"> Comment </label>
+      <textarea name="entry.479627662" id="comment"></textarea><br>
+      <input type="reset" value="reset">
+      <input type="submit" value="submit">
+    </div>
+    </form>
+
+
+  </body>
+    <footer id="contact">
+      <h2>Contact me</h2>
+      <a href="tel:5551234567"><i class="fas fa-phone"></i></a>
+      <a href="mailto:katey.buchanan@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.instagram.com/kt.bu/"><i class="fab fa-instagram"> </i></a>
+
+    </footer>
